@@ -147,6 +147,7 @@
    "options": "fa fa-table"
   },
   {
+   "allow_bulk_edit": 1,
    "fieldname": "accounts",
    "fieldtype": "Table",
    "label": "Accounting Entries",
@@ -539,7 +540,7 @@
  "idx": 176,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-03-01 14:58:59.286591",
+ "modified": "2026-01-12 16:59:27.476960",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Journal Entry",

@@ -48,14 +48,16 @@
  "idx": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2020-09-18 17:57:23.835236",
+ "modified": "2025-12-30 10:50:28.526498",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Mode of Payment",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
    "create": 1,
+   "delete": 1,
    "email": 1,
    "print": 1,
    "read": 1,
@@ -73,5 +75,6 @@
  "quick_entry": 1,
  "show_name_in_global_search": 1,
  "sort_field": "modified",
- "sort_order": "ASC"
+ "sort_order": "ASC",
+ "states": []
 }

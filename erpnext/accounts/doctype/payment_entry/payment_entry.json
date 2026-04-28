@@ -129,6 +129,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "allow_on_submit": 1,
    "bold": 1,
    "default": "Today",
    "fieldname": "posting_date",
@@ -419,7 +420,7 @@
   {
    "collapsible": 1,
    "collapsible_depends_on": "deductions",
-   "depends_on": "eval:(doc.paid_amount && doc.received_amount)",
+   "description": "eval:(doc.paid_amount && doc.received_amount)",
    "fieldname": "deductions_or_loss_section",
    "fieldtype": "Section Break",
    "label": "Deductions or Loss"
@@ -740,7 +741,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-19 11:38:04.387219",
+ "modified": "2026-04-25 16:02:09.970030",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Payment Entry",

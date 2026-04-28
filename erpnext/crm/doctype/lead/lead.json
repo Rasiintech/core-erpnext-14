@@ -1,4 +1,5 @@
 {
+ "_liked_by": "[\"Administrator\"]",
  "actions": [],
  "allow_events_in_timeline": 1,
  "allow_import": 1,
@@ -30,6 +31,7 @@
   "website",
   "column_break_20",
   "mobile_no",
+  "district",
   "whatsapp_no",
   "column_break_16",
   "phone",
@@ -508,13 +510,18 @@
    "fieldtype": "Tab Break",
    "label": "Connections",
    "show_dashboard": 1
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
   }
  ],
  "icon": "fa fa-user",
  "idx": 5,
  "image_field": "image",
  "links": [],
- "modified": "2022-10-13 12:42:04.277879",
+ "modified": "2026-03-07 15:06:15.003754",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Lead",

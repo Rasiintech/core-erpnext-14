@@ -107,7 +107,7 @@
  "idx": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2022-12-24 11:16:12.486719",
+ "modified": "2026-01-26 20:47:05.818971",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Supplier Group",
@@ -116,18 +116,22 @@
  "owner": "Administrator",
  "permissions": [
   {
+   "create": 1,
    "email": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Purchase Manager"
+   "role": "Purchase Manager",
+   "write": 1
   },
   {
+   "create": 1,
    "email": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Purchase User"
+   "role": "Purchase User",
+   "write": 1
   },
   {
    "create": 1,

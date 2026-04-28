@@ -111,7 +111,8 @@ class Item(Document):
 		self.validate_uom_conversion_factor()
 		self.validate_customer_provided_part()
 		self.update_defaults_from_item_group()
-		self.validate_item_defaults()
+		if self.is_stock_item:
+			self.validate_item_defaults()
 		self.validate_auto_reorder_enabled_in_stock_settings()
 		self.cant_change()
 		self.validate_item_tax_net_rate_range()

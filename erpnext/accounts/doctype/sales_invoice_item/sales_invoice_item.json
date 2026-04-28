@@ -156,7 +156,6 @@
    "oldfieldname": "description",
    "oldfieldtype": "Text",
    "print_width": "200px",
-   "reqd": 1,
    "width": "200px"
   },
   {
@@ -670,6 +669,8 @@
    "allow_on_submit": 1,
    "fieldname": "actual_qty",
    "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Available Qty at Warehouse",
    "oldfieldname": "actual_qty",
    "oldfieldtype": "Currency",
@@ -890,7 +891,7 @@
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-10-17 12:51:44.825398",
+ "modified": "2026-01-04 16:45:37.489418",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Invoice Item",

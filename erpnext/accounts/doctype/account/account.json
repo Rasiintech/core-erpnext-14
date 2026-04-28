@@ -192,7 +192,7 @@
  "idx": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2023-04-11 16:08:46.983677",
+ "modified": "2026-04-15 17:46:28.759585",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Account",
@@ -203,48 +203,9 @@
    "create": 1,
    "delete": 1,
    "email": 1,
-   "export": 1,
-   "import": 1,
-   "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Accounts User",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "email": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Auditor"
-  },
-  {
-   "email": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Sales User"
-  },
-  {
-   "email": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Purchase User"
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "import": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Accounts Manager",
-   "set_user_permissions": 1,
-   "share": 1,
+   "role": "Auditor",
    "write": 1
   }
  ],

@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 3,
  "is_standard": "Yes",
- "modified": "2021-10-06 06:26:07.881340",
+ "modified": "2026-01-10 17:26:31.152160",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Sales Partners Commission",
@@ -22,9 +22,6 @@
  "roles": [
   {
    "role": "Accounts Manager"
-  },
-  {
-   "role": "Accounts User"
   }
  ]
 }

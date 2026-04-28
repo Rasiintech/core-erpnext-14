@@ -125,7 +125,7 @@
  "idx": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2022-01-31 13:22:58.916273",
+ "modified": "2026-02-02 17:48:58.477195",
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Cost Center",
@@ -147,22 +147,35 @@
    "export": 1,
    "read": 1,
    "report": 1,
-   "role": "Auditor"
+   "role": "Auditor",
+   "select": 1
   },
   {
    "email": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Accounts User"
+   "role": "Accounts User",
+   "select": 1
   },
   {
    "read": 1,
-   "role": "Sales User"
+   "role": "Sales User",
+   "select": 1
   },
   {
    "read": 1,
-   "role": "Purchase User"
+   "role": "Purchase User",
+   "select": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Restuarent",
+   "select": 1,
+   "share": 1
   }
  ],
  "search_fields": "parent_cost_center, is_group",

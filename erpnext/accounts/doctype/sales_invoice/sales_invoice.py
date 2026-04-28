@@ -818,7 +818,7 @@ class SalesInvoice(SellingController):
 					self.po_no, formatdate(self.po_date)
 				)
 			else:
-				self.remarks = _("No Remarks")
+				self.remarks = _("")
 
 	def validate_auto_set_posting_time(self):
 		# Don't auto set the posting date and time if invoice is amended
